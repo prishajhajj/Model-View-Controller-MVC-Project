@@ -23,7 +23,6 @@ namespace Lab5Activity.Data
             modelBuilder.Entity<Enrollment>().ToTable("Enrollment");
             modelBuilder.Entity<Student>().ToTable("Student");
         }
-
         public DbSet<Lab5Activity.Models.Student> Student { get; set; } = default!;
     }
 }
